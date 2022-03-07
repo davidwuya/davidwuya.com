@@ -24,12 +24,12 @@ jobs:
         SSH_PRIVATE_KEY: $
         ARGS: "-rzv --delete --delete-excluded --chmod=g+rwx"
         SOURCE: "./_site/"
-        REMOTE_HOST: $
-        REMOTE_USER: $
-        TARGET: /var/www/davidwuya.com
+        REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
+        REMOTE_USER: ${{ secrets.REMOTE_USER }}
+        TARGET: /var/www/davidwuya.com/
 
-#     - name: Purge Cloudflare Cache
-#       uses: jakejarvis/cloudflare-purge-action@v0.3.0
-#       env:
-#         CLOUDFLARE_ZONE: $
-#         CLOUDFLARE_TOKEN: $
+    - name: Purge Cloudflare Cache
+      uses: jakejarvis/cloudflare-purge-action@v0.3.0
+      env:
+        CLOUDFLARE_ZONE: ${{ secrets.CLOUDFLARE_ZONE }}
+        CLOUDFLARE_TOKEN: ${{ secrets.CLOUDFLARE_TOKEN }}
