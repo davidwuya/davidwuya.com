@@ -7,24 +7,29 @@ on:
     branches: [ gh-pages ]
 
 jobs:
-  build:
-
+  jekyll:
+    name: Build and deploy Jekyll Site
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
-    - name: Build the site in the jekyll/builder container
-      run: |
-        docker run \
-        -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-        jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
+    - name: Checkout
+      uses: actions/checkout@v2
 
-    - name: rsync deployments
-      uses: burnett01/rsync-deployments@5.2
-      with:
-        switches: -avzr --delete
-        path: /srv/jekyll/_site
-        remote_path: /var/www/davidwuya.com/
-        remote_host: 137.184.112.182
-        remote_user: root
-        remote_key: ${{ secrets.DEPLOY_KEY }}
+    - name: Build
+      uses: SebasWild/jekyll-build-action@445d650279c45fd66c59ddd38620ddb30fceaedf
+
+    - name: Deploy to Server
+      uses: easingthemes/ssh-deploy@v2.1.1
+      env:
+        SSH_PRIVATE_KEY: $
+        ARGS: "-rzv --delete --delete-excluded --chmod=g+rwx"
+        SOURCE: "./_site/"
+        REMOTE_HOST: $
+        REMOTE_USER: $
+        TARGET: /var/www/davidwuya.com
+
+#     - name: Purge Cloudflare Cache
+#       uses: jakejarvis/cloudflare-purge-action@v0.3.0
+#       env:
+#         CLOUDFLARE_ZONE: $
+#         CLOUDFLARE_TOKEN: $
