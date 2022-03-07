@@ -21,7 +21,7 @@ jobs:
     - name: Deploy to Server
       uses: easingthemes/ssh-deploy@v2.1.1
       env:
-        SSH_PRIVATE_KEY: $
+        SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
         ARGS: "-rzv --delete --delete-excluded --chmod=g+rwx"
         SOURCE: "./_site/"
         REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
