@@ -1,9 +1,7 @@
 # Projects
-# uncomment the urls if you wish to display them, and add your own URL
 
-# jazznotes.io
 - project: Gamble For Crisis Business Competition Online Trading System
   role: Co-designer and Operations Engineer
   duration: 2018 &mdash; 2019
   # url: "#"
-  description: Directed the technical aspects of an online trading system that handled 2,000 simultaneous online users; Implemented back-end functionality with MySQL database; Responsible for live troubleshooting for the contestants while the competition is underway
+  description: Directed the technical aspects of an online trading system that handled 2,000 simultaneous online users<ul class="resume-item-list"><li>Implemented back-end functionality with MySQL database</li><li>Responsible for live troubleshooting for the contestants while the competition is underway</li></ul>

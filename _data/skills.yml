@@ -1,12 +1,19 @@
 # Skills
-# Organizational leadership
-- skill: Organizational leadership
-  description: I have several years of experience leading organziations from community groups to business departments. From public speaking, to mentoring, to coordination of people and events, I can lead in any context.
 
-# Communications strategy
-- skill: Communications strategy
-  description: Content and marketing strategy,
+- skill: Electronic Design Automation (EDA) Softwares
+  description: Primarily used KiCad in my experiences. I also have experience in Altium Designer and SPICE.
 
-# Digital content development and creation
-- skill: Digital content development and creation
-  description: Copy writing, graphic design, web design, front-end web development, print design
+- skill: Coding in Python
+  description: Fluent in Python, MicroPython and Adafruit CircuitPython. Have continuously practiced coding through personal projects since 2013. Notable libraries that I have proficiency in include NumPy, SciPy, Tesseract, and SpaCy NLP framework.
+
+- skill: Rapid prototyping of electronics
+  description: Building prototype hardware on breadboard. Most recently, the WSS Project at UCSB Experimental Cosmology Lab, where I designed hardware that is centered around the Raspberry Pi RP2040 MCU. Also have experience in other ARM single-board computers like Raspberry Pi, Arduinos, etc.
+
+- skill: Research and writing
+  description: Researching a wide variety of topics and writing detailed papers, articles and reports.
+  
+- skill: DevOps
+  description: Source management (Git), web server development and deployment, CI/CD (this site is delivered through CI/CD), automation, system maintenance.
+  
+- skill: Language
+  description: Native Mandarin Chinese speaker, fluent in written and spoken English and Cantonese.
