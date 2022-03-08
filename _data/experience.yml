@@ -1,6 +1,12 @@
 # Jobs
 - company: UCSB Experimental Cosmology Group
-  url: https://www.deepspace.ucsb.edu/
+  url: "https://www.deepspace.ucsb.edu/"
   position: Undergraduate Research Assistant
   duration: May 2020 &mdash; Present
-  summary: Chiefly responsible for the Waferscale Spacecraft Development project.  <ul class="resume-item-list"><li>Designed the PCB of Waferscale Spacecraft in KiCad and Altium Designer</li><li>Selecting and procuring electronic components amidst the semiconductor shortage of 2020 and 2021.</li><li>Developing CircuitPython code that runs on Raspberry Pi RP2040 MCU.</li><li>Collaborated with other team members to ensure on-time progress of the project.</li></ul>
+  summary: Chiefly responsible for the Waferscale Spacecraft Development project.  <ul class="resume-item-list"><li>Designed the PCB of Waferscale Spacecraft in KiCad and Altium Designer</li><li>Selecting and procuring electronic components amidst the semiconductor shortage of 2020 and 2021.</li><li>Developing CircuitPython code that runs on Raspberry Pi RP2040 MCU.</li><li>Designing buses that links the MCU and sensors through SPI, UART and I2C protocols.</li><li>Collaborated with other team members to ensure on-time progress of the project.</li></ul>
+
+- company: AIA Information Technologies, Co., Ltd.
+  url: "https://www.aia.com/en/index.html"
+  position: Software Engineering Intern
+  duration: June 2020 &mdash; October 2020
+  summary: <ul class="resume-item-list"><li>Assisted in the development of SAS Viya based data analysis and visualization project for industry clients.</li><li>Co-developed in-house optical character recognition and information extraction system based on Tesseract, SpaCy and various other frameworks for deployment to production environment.</li><li>Oversaw data classiﬁcation on confidential client information.</li><li>Performed other coding-related duties as requested by supervisor.</li></ul>
