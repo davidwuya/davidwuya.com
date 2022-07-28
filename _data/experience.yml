@@ -3,7 +3,7 @@
   url: "https://www.deepspace.ucsb.edu/"
   position: Undergraduate Research Assistant
   duration: May 2021 &mdash; Present
-  summary: Chiefly responsible for the Waferscale Spacecraft Development project.  <ul class="resume-item-list"><li>Designed the PCB of Waferscale Spacecraft in KiCad and Altium Designer</li><li>Selecting and procuring electronic components amidst the semiconductor shortage of 2020 and 2021.</li><li>Developing CircuitPython code that runs on Raspberry Pi RP2040 MCU.</li><li>Designing buses that links the MCU and sensors through SPI, UART and I2C protocols.</li><li>Collaborated with other team members to ensure on-time progress of the project.</li></ul>
+  summary: Primarily did electronics engineering work for the lab on the Wafer-scale Spacecraft and Moonbeam Lunar Power System projects. <ul class="resume-item-list"></ul>
 
 - company: AIA Information Technologies, Co., Ltd.
   url: "https://www.aia.com/en/index.html"
