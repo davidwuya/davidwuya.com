@@ -1,13 +1,19 @@
 # Skills
 
+- skill: Electronics Engineering and Embedded System Design
+  description: Designed, implemented, assembled and validated more than a dozen PCBs during my time at the UCSB Deepspace Lab. Most of the boards I designed are focused on achieving desired functionality in as small a footprint as possible.
+
 - skill: Electronic Design Automation (EDA) Softwares
-  description: Primarily used KiCad in my experiences. I also have experience in Altium Designer and SPICE.
+  description: Proficient in Altium Designer and KiCad.
 
-- skill: Coding in Python
-  description: Fluent in Python, MicroPython and Adafruit CircuitPython. Have continuously practiced coding through personal projects since 2013. Notable libraries that I have proficiency in include NumPy, SciPy, Tesseract, and SpaCy NLP framework.
+- skill: Communication Bus Operation
+  description: Designed systems with I2C, SMBus, UART, SPI buses for communicating between sensors and MCU.
 
-- skill: Rapid prototyping of electronics and embedded system design
-  description: Building prototype hardware on breadboard. Most recently, the WSS Project at UCSB Experimental Cosmology Lab, where I designed hardware that is centered around the Raspberry Pi RP2040 MCU. Also have experience in other ARM single-board computers like Raspberry Pi, Arduinos, etc.
+- skill: Coding in Python and C++
+  description: Fluent in Python, MicroPython and Adafruit CircuitPython. Have continuously practiced coding through personal projects since 2013. Notable libraries that I have proficiency in include NumPy, SciPy, Tesseract, and SpaCy NLP framework. Also proficient in C++.
+
+- skill: Rapid prototyping
+  description: Proficient in the use of maker hardware such as microcontroller boards, breadboards and off-the-shelf sensor breakout boards to rapidly design proof-of-concept (POC) systems.
 
 - skill: Research and writing
   description: Researching a wide variety of topics and writing detailed papers, articles and reports.

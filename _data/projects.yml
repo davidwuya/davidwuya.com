@@ -1,15 +1,15 @@
 # Projects
 - project: Wafer-scale Spacecraft
-  role: Lead Undergraduate Engineer
+  role: Electronics System Engineer
   duration: 2021 &mdash; Present
   url: "https://www.deepspace.ucsb.edu/projects/wafer-scale-spacecraft-development"
   description: Engineered prototypes of interstellar robotic system based on consumer-grade electronic components<ul class="resume-item-list"><li>Designed RP2040 MCU based development boards using KiCad and Altium Designer</li><li>Ported Micropython firmware to existing STM32-based development boards</li><li>Collaborated with other team members to ensure on-time progress of the project.</li><li>Optimized the bill of material (BOM) for the boards to ensure availability and ease of procurement</li><li>Developed Micropython code that runs on the boards</li><li>Mentored new team members to become productive part of the organization.</li></ul>
   
 - project: Moonbeam - Beamed Lunar Power System
-  role: Electronics Designer and Engineer
+  role: Electronics System Engineer
   duration: 2022 &mdash; Present
   url: "https://www.nasa.gov/directorates/spacetech/strg/lustr/2020/Moonbeam_Beamed_Lunar_Power/"
-  description: Part of NASA Lunar Surface Technology Research (LuSTR) Program<ul class="resume-item-list"><li>Designed and implemented switch-mode power supply system that includes photovoltaic system with maximum power point tracking (MPPT), lithium-ion battery management and long-range wireless communication.</li></ul>
+  description: Part of NASA Lunar Surface Technology Research (LuSTR) Program<ul class="resume-item-list"><li>Designed, implemented and validated miniature (10mm by 10mm) switch-mode power supply and energy harvesting system that includes cell-level Indium-gallium-arsenide (InGaAs) photovoltaic system with maximum power point tracking (MPPT), lithium-ion battery management, long-range wireless communication, and communication buses, including I2C, SPI and UART.</li> </ul>
   
 
 - project: Gamble For Crisis Business Competition Online Trading System
