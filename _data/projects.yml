@@ -1,4 +1,10 @@
 # Projects
+- project: NASA Watts on the Moon Challenge
+  role: Electronics Engineer
+  duration: Summer 2022 &mdash; Present
+  url: "https://www.nasa.gov/directorates/spacetech/centennial_challenges/watts-on-the-moon/index.html"
+  description: Designed and implemented power management, distribution, and energy storage solutions for deployment on lunar surface.<ul class="resume-item-list"><li>Designed high voltage DC/DC power conversion circuitry for low-loss long distance power transmission.</li><li>Designed energy storage and management system for use in a low temperature hard vacuum.</li></ul>
+  
 - project: Wafer-scale Spacecraft
   role: Electronics System Engineer
   duration: 2021 &mdash; Present
@@ -7,7 +13,7 @@
   
 - project: Moonbeam - Beamed Lunar Power System
   role: Electronics System Engineer
-  duration: 2022 &mdash; Present
+  duration: Summer 2022 &mdash; Present
   url: "https://www.nasa.gov/directorates/spacetech/strg/lustr/2020/Moonbeam_Beamed_Lunar_Power/"
   description: Part of NASA Lunar Surface Technology Research (LuSTR) Program<ul class="resume-item-list"><li>Designed, implemented and validated miniature (10mm by 10mm) switch-mode power supply and energy harvesting system that includes cell-level Indium-gallium-arsenide (InGaAs) photovoltaic system with maximum power point tracking (MPPT), lithium-ion battery management, long-range wireless communication, and communication buses, including I2C, SPI and UART.</li> </ul>
   
